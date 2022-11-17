@@ -25,7 +25,7 @@ class Hyperparam:
     STDDEV = 0.05
     D_KEEP_PERC = 0.98  # dropout for Disc (1= no drop) #Keep 0.95 or below to prevent overfitting of Generator (i.e. generating
     # exactly the same output)
-    G_KEEP_PERC = 1
+    G_KEEP_PERC = 0.9 # revised due to the rate is required to be less than 1
     D_STEPS = 3  # No. of steps to apply to discriminator #high value causes inf (i.e. iterations do not converge)
     G_STEPS = 3  # No. of steps to apply to generator #high value may causes mode collapse (synthetic images are similar to eah other)
 
