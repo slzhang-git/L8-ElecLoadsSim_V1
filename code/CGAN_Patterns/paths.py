@@ -8,7 +8,7 @@ class Paths():
 
     def __init__(self, key):
 
-        self.raw_input_path= "raw_input/"
+        self.raw_input_path= "raw_input/"    # the path needs to be manually revised, e.g., as "D:/software/"
 
 
         self.training_runs_path="training_runs/"
