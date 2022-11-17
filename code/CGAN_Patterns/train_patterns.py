@@ -18,7 +18,7 @@ from CGAN_Patterns.evaluator import Evaluator
 from CGAN_Patterns.distance import Distance
 
 
-tf.set_random_seed(1234)
+tf.random.set_seed(1234)
 np.random.seed(42)
 
 
