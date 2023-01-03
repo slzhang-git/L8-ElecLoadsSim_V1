@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<data>
+    <dataset data_name="AMPd" data_file="Electricity_P.csv" sampling_period="60">
+        <load short_name="CDE" long_name="Cloth Dryer" tmplt_start="18126" tmplt_end="18195" tmplt_threshold="0.4"/>
+        <load short_name="DWE" long_name="Dishwasher" tmplt_start="6864" tmplt_end="6981" tmplt_threshold="0.6" />
+        <load short_name="FGE" long_name="Fridge" tmplt_start="350367" tmplt_end="350454" tmplt_threshold="0.3" />
+        <load short_name="HPE" long_name="Heat Pump" tmplt_start="1025" tmplt_end="1074" tmplt_threshold="0.75" />
+        <!--<load short_name="CWE" long_name="Cloth Washer" tmplt_start="15564" tmplt_end="15645" tmplt_threshold="0.6" />-->
+    </dataset>
+    <dataset data_name="RAE" data_file="house1_power_blk2_mod.csv" sampling_period="1">
+        <load short_name="CDE" long_name="Cloth Dryer" tmplt_start="49860" tmplt_end="53820" tmplt_threshold="0.4" />
+        <load short_name="HPE" long_name="Heat Pump" tmplt_start="25140" tmplt_end="28080" tmplt_threshold="0.75" />
+        <!--<load short_name="CWE" long_name="Cloth Washer" tmplt_start="553320" tmplt_end="558000" tmplt_threshold="0.6" />-->
+    </dataset>
+</data>
+<!-- NOTE: tmplt_start and tmplt_end are indices in raw data before any resampling-->
