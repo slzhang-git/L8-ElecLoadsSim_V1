@@ -1,1 +1,1 @@
-download the dataset from [here](https://drive.google.com/file/d/1BAxsCIk-Pn_ThmtgfISJ_v9xWlrFH3cr/view) and put the files "Electricity_P.csv" and "house1_power_blk2_mod.csv" in this folder.
+download the dataset from [here](https://drive.google.com/file/d/1BAxsCIk-Pn_ThmtgfISJ_v9xWlrFH3cr/view) and put the files "Electricity_P.csv", "data.xml", and "house1_power_blk2_mod.csv" in this folder.
