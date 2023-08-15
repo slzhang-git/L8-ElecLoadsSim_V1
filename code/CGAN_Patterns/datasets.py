@@ -141,9 +141,9 @@ class Datasets:
         self.n_datasets=n_datasets
         self.short_names=lists_short_names
         self.long_names=lists_long_names
-        self.tmplt_start=np.array(lists_tmplt_start)
-        self.tmplt_end=np.array(lists_tmplt_end)
-        self.tmplt_threshold=np.array(lists_tmplt_threshold)
+        self.tmplt_start=np.array(lists_tmplt_start, dtype=object)
+        self.tmplt_end=np.array(lists_tmplt_end, dtype=object)
+        self.tmplt_threshold=np.array(lists_tmplt_threshold, dtype=object)
         self.datasets_steps=self.calc_datasets_step()
         self.datasets_loads_windows=self.calc_loads_windows()
         self.master_window=int(np.max(np.concatenate(self.datasets_loads_windows))+1)
